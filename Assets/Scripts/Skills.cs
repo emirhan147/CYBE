@@ -16,11 +16,10 @@ public class Skills : MonoBehaviour
   
     void Update()
     {
-        if (transform.position.x == skillplace)
+        if (transform.position.x >= skillplace)
         {
             Destroy(skill);
             timeskill.SetActive(true);
-
         }
     }
     
