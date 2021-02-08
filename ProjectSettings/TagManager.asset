@@ -9,6 +9,7 @@ TagManager:
   - character
   - FireSkill
   - fire
+  - skill
   layers:
   - Default
   - TransparentFX
